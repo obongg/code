@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=montserrat:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+  color: #555;
+  background-color: beige;
+}
+
+.container {
+  margin: 4rem auto;
+  padding: 0 30px 0 0;
+
+  width: 55vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #fff;
+
+  /* box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5); */
+  border-radius: 15px;
+  overflow: hidden;
+}
+.product-img {
+  width: 45%;
+  height: 100%;
+
+  object-fit: cover;
+  background: #555;
+}
+.product-heading {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  color: #999;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-title {
+  color: #000;
+  font-size: 3rem;
+  line-height: 1;
+  font-family: serif;
+  letter-spacing: -1.5px;
+
+  margin-bottom: 1.5rem;
+}
+.product-description {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+.product-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 2rem;
+}
+.discount-price {
+  font-weight: bold;
+  font-size: 2.5rem;
+
+  color: #095e92;
+  font-family: serif;
+}
+.normal-price {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+}
+.cta-btn {
+  background-color: #095e92;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 6rem;
+  color: #fff;
+  border-radius: 7px;
+  margin-top: 1rem;
+  font-size: 1rem;
+
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cta-btn:hover {
+  background-color: #2394dac0;
+}
+.cta-icon {
+  width: 1.7rem;
+  height: 1.7rem;
+}
